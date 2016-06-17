@@ -212,6 +212,10 @@ class ConfigurationTest extends \PHPUnit_Framework_TestCase
                 'translation_domain' => 'validators',
                 'strict_email' => false,
                 'cache' => 'validator.mapping.cache.symfony',
+                'mapping' => array(
+                    'files' => array(),
+                    'dirs' => array(),
+                ),
             ),
             'annotations' => array(
                 'cache' => 'file',
